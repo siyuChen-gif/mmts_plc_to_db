@@ -1,0 +1,71 @@
+sensors:
+  - sensor_id: RTD-01
+    kind: real
+    offset: 6
+    metric: temperature_C
+
+  - sensor_id: RTD-02
+    kind: real
+    offset: 44
+    metric: temperature_C
+
+  - sensor_id: RTD-03
+    kind: real
+    offset: 82
+    metric: temperature_C
+
+  - sensor_id: RTD-04
+    kind: real
+    offset: 120
+    metric: temperature_C
+
+  - sensor_id: RTD-05
+    kind: real
+    offset: 158
+    metric: temperature_C
+
+  - sensor_id: RTD-06
+    kind: real
+    offset: 196
+    metric: temperature_C
+
+  - sensor_id: RTD-07
+    kind: real
+    offset: 234
+    metric: temperature_C
+
+  - sensor_id: RTD-08
+    kind: real
+    offset: 272
+    metric: temperature_C
+
+  - sensor_id: DMT-01
+    kind: real
+    offset: 314
+    metric: dewpoint_C
+    transform: dew_point_fix
+
+  - sensor_id: DMT-02
+    kind: real
+    offset: 356
+    metric: dewpoint_C
+    transform: dew_point_fix
+
+  - sensor_id: Chiller-01
+    kind: real
+    offset: 410
+    metric: temperature_C
+
+  - sensor_id: Chiller-T
+    kind: real
+    offset: 418
+    metric: temperature_C
+
+  - sensor_id: Chiller-PrevT
+    kind: real
+    offset: 422
+    metric: temperature_C
+
+  - sensor_id: System Status
+    kind: system_status
+    metric: system_code
