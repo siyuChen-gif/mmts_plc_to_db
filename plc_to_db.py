@@ -366,11 +366,7 @@ def db_worker(worker_id):
                 # input changes:
                 else:
                     data_to_insert_list.append(
-                        (last_seen_data)
-                    )
-
-                    data_to_insert_list.append(
-                        (data)
+                        (data, "input changed")
                     )
 
                     last_seen_signature = current_signature
